@@ -1,4 +1,4 @@
-# importa as bibliotecas necessárias
+# importa as bibliotecas necessárias ->
 import PyPDF2
 import re
 import os
