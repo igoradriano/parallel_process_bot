@@ -9,7 +9,6 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.options import Options
 import pandas as pd
 
-
 # Obtendo palavras portugues
 # df = pd.read_csv('https://raw.githubusercontent.com/pythonprobr/palavras/master/palavras.txt',encoding='utf-8')
 # lista = df["a"].values.tolist()
@@ -26,7 +25,6 @@ with open('lista_inicial.txt', 'w+') as f:
     for items in new_list: 
         f.write('%s\n' %items) 
     f.close()
-
 
 actual_list = new_list.copy()
 for p in new_list:
