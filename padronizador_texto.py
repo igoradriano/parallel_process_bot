@@ -2,10 +2,9 @@
 import PyPDF2
 import re
 import os
+# -*- coding: utf-8 -*-
 import sys
 import codecs
-# -*- coding: utf-8 -*-
-
 
 page_content =""
 pasta = 'docs-pdf'
